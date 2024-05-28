@@ -7,14 +7,14 @@ const Body = () => {
         <div class="home__container.container.grid">
             <div class="home__data">
                 <h1 class="home__title">
-                     <br/> Electric Vehicle Charging WITH RAINBOW <br/> 
+                     <br/>Electric Vehicle Charging WITH RAINBOW <br/> 
                 </h1>
                 <p class="home__description">
                    <br/> "STAY CHARGED " with RAINBOW EV charging points across India...<br/>
                     Find the variety of Chargers that suit you very easily, 
                     forget all difficulties in finding a charger for you...
                 </p>
-                <form action="" className="  home__search">
+                <form action="" className=" home__search">
                     <input type="search" placeholder="search by location..." className=" home__search--input"/>
                     <button class="button">Search</button>
                 </form>
