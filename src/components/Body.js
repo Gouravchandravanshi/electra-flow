@@ -14,9 +14,8 @@ const Body = () => {
                     Find the variety of Chargers that suit you very easily, 
                     forget all difficulties in finding a charger for you...
                 </p>
-                <form action="" class="home__search">
-                    <i class='bx bxs-map'></i>
-                    <input type="search" placeholder="search by location..." class="home__search--input"/>
+                <form action="" className="  home__search">
+                    <input type="search" placeholder="search by location..." className=" home__search--input"/>
                     <button class="button">Search</button>
                 </form>
 
