@@ -1,10 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Body from './components/Body';
+import Contact from './components/Contact';
+import Header from './components/Header';
+import PopularChargerSec from './components/PopularChargerSec';
+import Subscribe from './components/Subscribe';
+import Value from './components/Value';
 
 function App() {
   return (
-    <div className='bg-red-700 border border-r-black'>
-    hello this
+    <div className=''>
+    <Header></Header>
+    <Body></Body>
+    <PopularChargerSec></PopularChargerSec>
+    <Value></Value>
+    <Contact></Contact>
+    <Subscribe></Subscribe>
     </div>
   );
 }
