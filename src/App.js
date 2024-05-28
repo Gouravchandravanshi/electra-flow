@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className='bg-red-700 border border-r-black'>
-      new project
+    hello this
     </div>
   );
 }
