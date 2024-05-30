@@ -1,4 +1,5 @@
 import React from 'react'
+import evs3jpg from './assets/ev-s3.jpg'
 
 const Contact = () => {
   return (
@@ -10,7 +11,7 @@ const Contact = () => {
                 <div class="contact__orbe"></div>
 
                 <div class="contact__img">
-                    <img src="Startup/Image/ev-s3.jpg" alt=""/>
+                    <img src={evs3jpg} alt=""/>
                 </div>
             </div>
 

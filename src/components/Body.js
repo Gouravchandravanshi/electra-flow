@@ -1,4 +1,10 @@
 import React from 'react'
+import ev1jpeg from './assets/ev1.jpeg'
+import ev3jpeg from './assets/ev3.jpeg'
+import evs1jpg from './assets/ev-s1.jpg'
+import ev4jpeg from './assets/ev4.jpeg'
+import ev5jpeg from './assets/ev5.jpeg'
+
 
 const Body = () => {
   return (
@@ -52,7 +58,7 @@ const Body = () => {
             <div class="home__images">
                 <div class="home__orbe"></div>
                 <div class="home__img">
-                    <img src="Startup/Image/ev1.jpeg" alt=""/>
+                    <img src={ev1jpeg} alt=""/>
                 </div>
             </div>
         </div>
@@ -61,16 +67,16 @@ const Body = () => {
     <section class="logos section">
          <div class="logos__container container grid">
             <div class="logos__img">
-                <img src="././utils.ev-s1" alt=""/>
+                <img src={evs1jpg} alt=""/>
             </div>
             <div class="logos__img">
-                <img src="Startup/Image/ev3.jpeg" alt=""/>
+                <img src={ev3jpeg} alt=""/>
             </div>
             <div class="logos__img">
-                <img src="Startup/Image/ev4.jpeg" alt=""/>
+                <img src={ev4jpeg} alt=""/>
             </div>
             <div class="logos__img">
-                <img src="Startup/Image/ev5.jpeg" alt=""/>
+                <img src={ev5jpeg} alt=""/>
             </div>
          </div>
     </section>

@@ -1,5 +1,12 @@
 import React from 'react'
-
+import ev10jpeg from './assets/ev10.jpeg'
+import ev11jpeg from './assets/ev11.jpeg'
+import ev12jpeg from './assets/ev12.jpeg'
+import evs1jpg from './assets/ev-s1.jpg'
+import evs2jpg from './assets/ev-s2.jpg'
+import evs3jpg from './assets/ev-s3.jpg'
+import evs4jpg from './assets/ev-s4.jpg'
+import ev13jpg from './assets/ev13.jpeg'
 const PopularChargerSec = () => {
   return (
     <div>
@@ -13,7 +20,7 @@ const PopularChargerSec = () => {
             <div class="popular__container swiper">
                 <div class="swiper-wrapper">
                     <article class="popular__card swiper-slide">
-                         <img src="Startup/Image/ev10.jpeg" alt="" class="popular__img"/>
+                         <img src={ev10jpeg} alt="" class="popular__img"/>
 
                          <div class="popular__data">
                             <h2 class="popular__price">
@@ -30,7 +37,7 @@ const PopularChargerSec = () => {
                     </article>
 
                     <article class="popular__card swiper-slide">
-                        <img src="Startup/Image/ev11.jpeg" alt="" class="popular__img"/>
+                        <img src={ev11jpeg} alt="" class="popular__img"/>
 
                         <div class="popular__data">
                            <h2 class="popular__price">
@@ -47,7 +54,7 @@ const PopularChargerSec = () => {
                    </article>
 
                    <article class="popular__card swiper-slide">
-                    <img src="Startup/Image/ev12.jpeg" alt="" class="popular__img"/>
+                    <img src={ev12jpeg} alt="" class="popular__img"/>
 
                     <div class="popular__data">
                        <h2 class="popular__price">
@@ -64,7 +71,7 @@ const PopularChargerSec = () => {
                </article>
 
                <article class="popular__card swiper-slide">
-                <img src="Startup/Image/ev-s1.jpg" alt="" class="popular__img"/>
+                <img src={evs1jpg} alt="" class="popular__img"/>
 
                 <div class="popular__data">
                    <h2 class="popular__price">
@@ -81,7 +88,7 @@ const PopularChargerSec = () => {
            </article>
 
            <article class="popular__card swiper-slide">
-            <img src="Startup/Image/ev-s2.jpg" alt="" class="popular__img"/>
+            <img src={evs2jpg} alt="" class="popular__img"/>
 
             <div class="popular__data">
                <h2 class="popular__price">
@@ -98,7 +105,7 @@ const PopularChargerSec = () => {
        </article>
 
        <article class="popular__card swiper-slide">
-        <img src="Startup/Image/ev-s3.jpg" alt="" class="popular__img"/>
+        <img src={evs3jpg} alt="" class="popular__img"/>
 
         <div class="popular__data">
            <h2 class="popular__price">
@@ -115,7 +122,7 @@ const PopularChargerSec = () => {
    </article>
 
    <article class="popular__card swiper-slide">
-    <img src="Startup/Image/ev-s4.jpg" alt="" class="popular__img"/>
+    <img src={evs4jpg} alt="" class="popular__img"/>
 
     <div class="popular__data">
        <h2 class="popular__price">
@@ -132,7 +139,7 @@ const PopularChargerSec = () => {
 </article>
 
                <article class="popular__card swiper-slide">
-                <img src="Startup/Image/ev13.jpeg" alt="" class="popular__img"/>
+                <img src={ev13jpg} alt="" class="popular__img"/>
 
                 <div class="popular__data">
                    <h2 class="popular__price">

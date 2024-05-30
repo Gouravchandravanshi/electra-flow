@@ -1,4 +1,5 @@
 import React from 'react'
+import evs1jpg from './assets/ev-s1.jpg'
 
 const Value = () => {
   return (
@@ -10,7 +11,7 @@ const Value = () => {
                 <div class="value__orbe"></div>
 
                 <div class="value__img">
-                    <img src="Startup/Image/ev-s1.jpg" alt=""/>
+                    <img src={evs1jpg} alt=""/>
                 </div>
             </div>
 
