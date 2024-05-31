@@ -12,7 +12,7 @@ const Header = () => {
             <div className="nav__menu">
                 <ul className="nav__list">
                     <li className="nav__item">
-                        <a href="#home" className="nav__link active-link">
+                        <a href="#Home" className="nav__link active-link">
                             <i className='bx bxs-home-alt-2' ></i>
                             <span>Home</span>
                         </a>
@@ -36,6 +36,31 @@ const Header = () => {
                         <a href="#contact" className="nav__link">
                             <i className='bx bx-phone'></i>
                             <span>Contact</span>
+                        </a>
+                    </li>
+                    
+                    <li className="nav__item">
+                        <a href="#Aboutus" className="nav__link">
+                            <i className='bx bx-phone'></i>
+                            <span>
+                                About Us
+                            </span>
+                        </a>
+                    </li>
+                    <li className="nav__item">
+                        <a href="#Beapartner" className="nav__link">
+                            <i className='bx bx-phone'></i>
+                            <span>
+                                Be a Partner
+                            </span>
+                        </a>
+                    </li>
+                    <li className="nav__item">
+                        <a href="#Ourteam" className="nav__link">
+                            <i className='bx bx-phone'></i>
+                            <span>
+                                Our team
+                            </span>
                         </a>
                     </li>
                 </ul>
