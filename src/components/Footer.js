@@ -8,20 +8,19 @@ const Footer = () => {
                 <a href="#" class="footer__logo">
                     Holux <i class='bx bxs-home-alt-2'></i>
                 </a>
-                <p class="footer__description">
-                    Our Vision is to make all People <br/>
-                    the best charger to use for them.
+                <p class="footer__description w-56">
+                Revolutionizing EV charging nationwide, weprioritize convenience and sustainability, fostering a seamless transition to electric transportation. 
                 </p>
             </div>
 
             <div class="footer__content">
-                <div>
+                 <div> 
                     <h3 class="footer__title">
-                        About
+                        Contact
                     </h3>
 
                     <ul class="footer__links">
-                        <li>
+                         {/* <li>
                             <a href="#" class="footer__link">About Us</a>
                         </li>
                         <li>
@@ -29,17 +28,17 @@ const Footer = () => {
                         </li>
                         <li>
                             <a href="#" class="footer__link">News & Blog</a>
-                        </li>
+                        </li>  */}
                     </ul>
-                </div>
+                </div> 
 
-                <div>
+                {/* <div>
                     <h3 class="footer__title">
                         Company
                     </h3>
 
                     <ul class="footer__links">
-                        <li>
+                        {/* <li>
                             <a href="#" class="footer__link">How We Work?</a>
                         </li>
                         <li>
@@ -47,17 +46,16 @@ const Footer = () => {
                         </li>
                         <li>
                             <a href="#" class="footer__link">Security</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div>
+                        </li> */}
+                    {/* </ul>
+                </div> */}
+                {/* <div>
                     <h3 class="footer__title">
                          Support
                     </h3>
 
                     <ul class="footer__links">
-                        <li>
+                        {/* <li>
                             <a href="#" class="footer__link">FAQs</a>
                         </li>
                         <li>
@@ -65,11 +63,11 @@ const Footer = () => {
                         </li>
                         <li>
                             <a href="#" class="footer__link">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
+                        </li> */}
+                    {/* </ul>
+                </div> */} 
 
-                <div>
+                {/* <div>
                     <h3 class="footer__title">
                        Follow us
                     </h3>
@@ -85,7 +83,7 @@ const Footer = () => {
                             <i class='bx bxl-pinterest'></i>
                         </a>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </div>
 

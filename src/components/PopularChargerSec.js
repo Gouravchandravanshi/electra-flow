@@ -14,7 +14,7 @@ const PopularChargerSec = () => {
         <div class="container">
             <span class="section__subtitle">Best Choise</span>
             <h2 class="section__title">
-                Popular Chargers<span>.</span>
+                Our Product<span>.</span>
             </h2>
 
             <div class="popular__container swiper">
@@ -23,9 +23,7 @@ const PopularChargerSec = () => {
                          <img src={ev10jpeg} alt="" class="popular__img"/>
 
                          <div class="popular__data">
-                            <h2 class="popular__price">
-                                <span>$</span>66
-                            </h2>
+                           
                             <h3 class="popular__titlr">
                                 EV charger
                             </h3>
@@ -40,9 +38,7 @@ const PopularChargerSec = () => {
                         <img src={ev11jpeg} alt="" class="popular__img"/>
 
                         <div class="popular__data">
-                           <h2 class="popular__price">
-                            <span>$</span>68
-                           </h2>
+                           
                            <h3 class="popular__titlr">
                             EV Chargers
                            </h3>
@@ -57,9 +53,7 @@ const PopularChargerSec = () => {
                     <img src={ev12jpeg} alt="" class="popular__img"/>
 
                     <div class="popular__data">
-                       <h2 class="popular__price">
-                        <span>$</span>69
-                       </h2>
+                       
                        <h3 class="popular__titlr">
                         EV Chargers
                        </h3>
@@ -74,9 +68,7 @@ const PopularChargerSec = () => {
                 <img src={evs1jpg} alt="" class="popular__img"/>
 
                 <div class="popular__data">
-                   <h2 class="popular__price">
-                    <span>$</span>69
-                   </h2>
+                   
                    <h3 class="popular__titlr">
                     EV Chargers
                    </h3>
@@ -91,9 +83,7 @@ const PopularChargerSec = () => {
             <img src={evs2jpg} alt="" class="popular__img"/>
 
             <div class="popular__data">
-               <h2 class="popular__price">
-                <span>$</span>69
-               </h2>
+               
                <h3 class="popular__titlr">
                 EV Chargers
                </h3>
@@ -108,9 +98,7 @@ const PopularChargerSec = () => {
         <img src={evs3jpg} alt="" class="popular__img"/>
 
         <div class="popular__data">
-           <h2 class="popular__price">
-            <span>$</span>69
-           </h2>
+           
            <h3 class="popular__titlr">
             EV Chargers
            </h3>
@@ -125,9 +113,7 @@ const PopularChargerSec = () => {
     <img src={evs4jpg} alt="" class="popular__img"/>
 
     <div class="popular__data">
-       <h2 class="popular__price">
-        <span>$</span>69
-       </h2>
+       
        <h3 class="popular__titlr">
         EV Chargers
        </h3>
@@ -142,9 +128,7 @@ const PopularChargerSec = () => {
                 <img src={ev13jpg} alt="" class="popular__img"/>
 
                 <div class="popular__data">
-                   <h2 class="popular__price">
-                    <span>$</span>90
-                   </h2>
+                   
                    <h3 class="popular__titlr">
                     Ev Chargers
                    </h3>

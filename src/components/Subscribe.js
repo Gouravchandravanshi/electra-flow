@@ -4,7 +4,7 @@ const Subscribe = () => {
   return (
     <div>
              {/* <!-- ----------------------- SUBSCRIBE --------------------- --> */}
-     <section class="subscribe section">
+     {/* <section class="subscribe section">
         <div class="subscribe__container container">
             <h1 class="subscribe__title">
                 Get Started with Holux
@@ -17,7 +17,7 @@ const Subscribe = () => {
                 Get Started
             </a>
         </div>
-     </section>
+     </section> */}
     </div>
   )
 }

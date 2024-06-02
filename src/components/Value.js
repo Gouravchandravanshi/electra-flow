@@ -31,7 +31,7 @@ const Value = () => {
                 <div class="value__accordion">
                     <div class="value__accordion-item">
                         <header class="value__accordion-header">
-                            <i class='bx bxs-shield-x value__accordion-icon'></i>
+                            {/* <i class='bx bxs-shield-x value__accordion-icon'></i> */}
                             <h3 class="value__accordion-title">
                                 Best interest rates on the market
                             </h3>

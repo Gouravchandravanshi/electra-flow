@@ -64,41 +64,9 @@ const Contact = () => {
                         </button>
                     </div>
 
-                    <div class="contact__card-box">
-                        <div class="contact__card-info">
-                            <i class='bx bxs-video'></i>
-                            <div>
-                                <h3 class="contact__card-title">
-                                    Video Call
-                                </h3>
-                                <p class="contact__card-description">
-                                    022.321.165.19
-                                </p>
-                            </div>
-                        </div>
+                
 
-                        <button class="button contact__card-button">
-                            Video Call Now
-                        </button>
-                    </div>
-
-                    <div class="contact__card-box">
-                        <div class="contact__card-info">
-                            <i class='bx bxs-envelope'></i>
-                            <div>
-                                <h3 class="contact__card-title">
-                                     Message
-                                </h3>
-                                <p class="contact__card-description">
-                                    022.321.165.19
-                                </p>
-                            </div>
-                        </div>
-
-                        <button class="button contact__card-button">
-                            Message Now
-                        </button>
-                    </div>
+                    
                 </div>
 
             </div>
@@ -143,8 +111,8 @@ const Contact = () => {
               </div>
 
               <div>
-                <button type="submit" class="btn-pink" id="submit-btn">
-                  Send Message<i
+                <button type="submit" className="btn-pink " id="submit-btn" >
+                  Submit<i
                     class="submit-icon fa-solid fa-paper-plane"
                   ></i>
                 </button>

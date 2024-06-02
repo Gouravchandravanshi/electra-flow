@@ -3,15 +3,15 @@ import React from 'react'
 const Header = () => {
   return (
     <div>
-       <header className="header" id="header">
-        <nav className="nav container">
+       <header className="header " id="header">
+        <nav className="nav container ">
             <a href="#" className="nav__logo">
                 Holux <i className='bx bxs-home-alt-2'></i>
             </a>
 
             <div className="nav__menu">
                 <ul className="nav__list">
-                    <li className="nav__item">
+                    <li className="nav__item ">
                         <a href="#Home" className="nav__link active-link">
                             <i className='bx bxs-home-alt-2' ></i>
                             <span>Home</span>
@@ -21,16 +21,16 @@ const Header = () => {
                     <li className="nav__item">
                         <a href="#popular" className="nav__link">
                             <i className='bx bx-building-house' ></i>
-                            <span>Residences</span>
+                            <span>Our Product</span>
                         </a>
                     </li>
 
-                    <li className="nav__item">
+                    {/* <li className="nav__item">
                         <a href="#value" className="nav__link">
                             <i className='bx bx-award' ></i>
                             <span>Value</span>
                         </a>
-                    </li>
+                    </li> */}
 
                     <li className="nav__item">
                         <a href="#contact" className="nav__link">

@@ -13,10 +13,10 @@ const Body = () => {
         <div class="home__container.container.grid">
             <div class="home__data">
                 <h1 class="home__title">
-                     <br/>Electric Vehicle Charging WITH RAINBOW <br/> 
+                     <br/>Electric Vehicle Charging With Electra-Flow <br/> 
                 </h1>
                 <p class="home__description">
-                   <br/> "STAY CHARGED " with RAINBOW EV charging points across India...<br/>
+                   <br/> "STAY CHARGED " with Electra-Flow EV charging points across India...<br/>
                     Find the variety of Chargers that suit you very easily, 
                     forget all difficulties in finding a charger for you...
                 </p>
@@ -25,34 +25,7 @@ const Body = () => {
                     <button class="button">Search</button>
                 </form>
 
-                <div class="home__value">
-                    <div>
-                        <h1 class="home__value-number">
-                            9k <span>+</span>
-                        </h1>
-                        <span class="home__value-description">
-                            Premium <br/> Product
-                        </span>
-                    </div>
-
-                    <div>
-                        <h1 class="home__value-number">
-                            2k <span>+</span>
-                        </h1>
-                        <span class="home__value-description">
-                            Happy <br/> Customer
-                        </span>
-                    </div>
-
-                    <div>
-                        <h1 class="home__value-number">
-                            28k <span>+</span>
-                        </h1>
-                        <span class="home__value-description">
-                            Awards <br/> Winning
-                        </span>
-                    </div>
-                </div>
+                
             </div>
 
             <div class="home__images">
@@ -63,23 +36,8 @@ const Body = () => {
             </div>
         </div>
     </section>
-    {/* logos section */}
-    <section class="logos section">
-         <div class="logos__container container grid">
-            <div class="logos__img">
-                <img src={evs1jpg} alt=""/>
-            </div>
-            <div class="logos__img">
-                <img src={ev3jpeg} alt=""/>
-            </div>
-            <div class="logos__img">
-                <img src={ev4jpeg} alt=""/>
-            </div>
-            <div class="logos__img">
-                <img src={ev5jpeg} alt=""/>
-            </div>
-         </div>
-    </section>
+    
+    
     </div>
   )
 }
