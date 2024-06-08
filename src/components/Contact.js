@@ -31,19 +31,23 @@ const Contact = () => {
                     <div class="contact__card-box">
                         <div class="contact__card-info">
                             <i class='bx bxs-phone-call'></i>
-                            <div>
+                            <div >
                                 <h3 class="contact__card-title">
                                     Call
                                 </h3>
-                                <p class="contact__card-description">
-                                    022.321.165.19
+                                <p class="contact__card-description" >
+                                +91 70116 45976
                                 </p>
                             </div>
                         </div>
 
-                        <button class="button contact__card-button">
+                        <a href="tel:+91 70116 45976">
+                        <button class="button contact__card-button" >
                             Call Now
                         </button>
+                        </a>
+
+                        
                     </div>
 
                     <div class="contact__card-box">
@@ -54,14 +58,18 @@ const Contact = () => {
                                    Chat
                                 </h3>
                                 <p class="contact__card-description">
-                                    022.321.165.19
+                                +91 70116 45976
                                 </p>
                             </div>
                         </div>
 
-                        <button class="button contact__card-button">
+                        <a>
+                        <button class="button contact__card-button" >
                             Chat Now
                         </button>
+                        </a>
+
+                        
                     </div>
 
                 
