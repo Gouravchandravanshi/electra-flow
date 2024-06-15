@@ -1332,3 +1332,25 @@
 }
 
 }
+.my-component {
+    padding: 20px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+/* Media query to hide the component on small screens */
+@media (max-width: 720px) {
+    .my-component {
+        display: none;
+    }
+}
+@media(min-width:720px){
+    .hamburger{
+        display:none;
+    }
+}
+@media(min-width:720px){
+    .sideNav{
+        display:none;
+    }
+}

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>
+    <div className='my-component'>
        <header className="header " id="header">
         <nav className="nav container ">
             <a href="#" className="nav__logo">

@@ -2,6 +2,7 @@ import React from 'react'
 import evs1jpg from './assets/ev-s1.jpg'
 
 const Value = () => {
+    
   return (
     <div>
              {/* <!-- ============ VALUE ================== --> */}
