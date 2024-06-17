@@ -68,9 +68,9 @@ const Header = () => {
 
             <i className='bx bx-moon change-theme' id="theme-button"></i>
 
-            <a href="#" className="button nav__button">
+            {/* <a href="#" className="button nav__button">
                 Subscribe
-            </a>
+            </a> */}
         </nav>
     </header>
     </div>

@@ -12,10 +12,13 @@ const Navbar = ({visible, setvisible}) => {
         <header className='text-center bg-black flex  h-screen sideNav'>
                <div className='font-bold text-lg w-4/5'>
                <ul>
-                    <li className='p-10'><a href="#">Home</a></li>
-                    <li className='p-4'><a href="#">About</a></li>
-                    <li className='p-4'><a href="#">Services</a></li>
-                    <li className='p-4'><a href="#">Contact</a></li>
+                    <li className='p-10'><a href="#Home">Home</a></li>
+                    <li className='p-4'><a href="#popular">Our Product</a></li>
+                    <li className='p-4'><a href="#contact">Contact</a></li>
+                    <li className='p-4'><a href="#Aboutus">About Us</a></li>
+                    <li className='p-4'><a href="#Beapartner">Be a Partner</a></li>
+                    <li className='p-4'><a href="#Ourteam">Our team</a></li>
+                    
                 </ul>
                </div>
                <div>
